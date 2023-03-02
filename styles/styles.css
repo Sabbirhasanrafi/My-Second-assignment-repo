@@ -1,0 +1,34 @@
+/*----------- 
+header part
+-------------- */
+.header-color{
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+.font-header{
+    display: flex;
+    gap: 700px;
+} 
+ol{
+    display: flex;
+    gap
+}
+  /*---------
+   picture-above
+  -------------- */
+.primary-key{
+    margin: 20px 400px 10px 500px;
+}
+.btn-primary{
+    background-color: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+}
+.picture-above{
+    margin: 120px 600px 25px 450px;
+}
+.banner{
+     margin: 20px 500px 50px 30px;
+     width: 10px;
+height: 50px;
+}
