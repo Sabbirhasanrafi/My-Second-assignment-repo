@@ -6,7 +6,7 @@ header part
 }
 .font-header{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
 } 
 ol{
     display: flex;
@@ -31,11 +31,14 @@ ol{
 }
 .banner{
        
-     height: 50%;
+      height: 50%;
      width: 50%;
      margin-left: 450px;
      margin-top: 20px;
-     margin-bottom: 10px;
+     margin-bottom: 10px; 
+      
+     
+     
 }
 
  
@@ -43,16 +46,16 @@ ol{
  2nd Section-------------------- */
  .mango-tree{
     display: flex;
-    margin: 50px 200px 50px 200px; 
+    justify-content: center;
+    margin-top: 100px;
+    /* margin: 50px 200px 50px 200px;  */
      
  }
  .catting-img{
-    height: 80%;
-    width: 80%;
-     
-    gap: 0px;
-     
-   
+    
+     /* height: 10%;
+    width: 10%, 
+    gap: 0px; */ 
  }  
  .first-div{
     display: flex;
@@ -60,10 +63,12 @@ ol{
  }
  .second-div{
     display: flex;
- }
+ } 
+ 
+ 
  .mango{
-   text-align: center;
-   margin-top: 100px;
+    text-align: center;
+    margin-top: 30px;
  }
  .btn-second-key{
     background-color: #FF900E;
@@ -79,13 +84,16 @@ ol{
         display: flex;
         gap: 20px;
         border:  black;
+        margin-bottom: 100px;
+        border: 1px solid white;
+        
     }
     .blogs{
         gap: 5px;
         width: 50%;
     }
     .blog{
-        background-color:  skyblue;
+        background-color:   lightyellow;
         margin-left: 270px;
     }
     .blog-head{
@@ -102,13 +110,17 @@ ol{
         width: 180px;
         height: 100px;
         font-size: 20px;
+         margin-right: 200px;
 
     }
     /*---------
      fourth Section
      ------------------- */
      .apple-tree{
-        margin-right:  100px;     }
+        margin-left:100px; 
+        margin-bottom: 75px;   
+    
+    }
      .apple{
         display: flex;
         justify-content: space-around;
@@ -145,3 +157,33 @@ ol{
         text-align: center;
         font-size: 20px;
       }
+  .hide{
+    display: none;
+  }
+  @media only  screen  and (max-width:576px) {
+     .mango-tree, .first-div,.second-div,.apple,.Cherry,.orange,ol {
+        flex-direction: column;
+        gap:20px;
+        padding: 10px 20px;
+        }
+        .Cherry,.banner{
+         margin-left: 100px;
+        }
+        .apple-tree{
+         margin-left: 0px;
+        }
+        .apple{
+         margin-right: 80px;
+         margin-left: 20px;
+        }
+        .blog{
+         margin-left: 50px;
+         width: 100%;
+        }
+        .header-color{
+         margin-left: 20px;
+         padding: 20px;
+        }
+
+    
+  }
